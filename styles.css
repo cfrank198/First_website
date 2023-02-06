@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+header,
+footer,
+.Content {
+    padding: 0px 200px;
+}
+
+header {
+    display: flex;
+    height: 100px;
+    background-color: #1f2937;
+    font-size: 24px;
+    color: #f9faf8;
+    gap: 12px;
+    padding-top: 16px;
+}
+
+footer {
+    background-color: #1f2937;
+}
+
+.header {
+    margin-right: auto;
+}
+
+.link {
+    font-size: 18px;
+    color: rgb(190, 188, 188);
+}
+
+.Content{
+    flex: 1;
+}
+
+.one {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+}
+
+.three {
+    background-color: #e5e7eb;
+}
